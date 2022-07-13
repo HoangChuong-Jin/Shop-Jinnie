@@ -1,0 +1,437 @@
+:root {
+	--font-family-sans-serif: "Roboto", sans-serif;
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #212529;
+	text-align: left;
+	background-color: #f8fafc;
+}
+
+
+
+h2{
+  font-family: Brush Script MT;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+h2 a{
+  color: #FD5961!important;
+}
+
+h2 a:hover{
+  transition: 100ms;
+  /*background-color: #FE8288;
+  border-radius: 0.8em;*/
+  transform: scale(1.3);
+}
+
+/**/
+  #car{
+    padding-right: 0px!important;
+    padding-left: 4px!important;
+  }
+
+/* menu */
+
+    nav {
+    	margin-bottom: 1px;
+    }
+
+/* */
+
+/*
+/* about */
+
+  /* bay */
+    @keyframes ani-left{
+      0%{
+        opacity: 0;
+        transform: translate(-60%, 0);
+      }
+      100%{
+        transform: translate(0, 0);
+      }
+    }
+    @keyframes ani-right{
+      0%{
+        opacity: 0;
+        transform: translate(+60%, 0);
+      }
+      100%{
+        transform: translate(0, 0);
+      }
+    }
+
+    #about .left{
+    }
+    #about .right .right-nd{
+    }
+
+  /* md */
+    #about{
+      padding-top: 12%;
+    }
+
+    #about .left img{
+      margin-left: 10%;
+      border-radius: 50px;
+    }
+
+    #about .right .right-nd h4{
+      color: #FEA1A5;
+      font-family: Arial;
+      text-align: justify;
+    }
+
+    #about .right .right-nd{
+      padding: 2%;
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: 2px 4px 5px #BFBFBF;
+
+      position: absolute;
+      top: 20%;
+      right: 12%;
+      left: -10%;
+    }
+
+    #about .right{
+      position: relative;
+    }
+
+  /* repotive */
+    @media screen and (min-width: 1440px){
+      #about .right .right-nd h4{
+        font-size: 30px;
+      }
+
+      #about .right .right-nd p{
+        font-size: 18px;
+      }
+    }
+
+    @media screen and (max-width: 1440px){
+      #about .right .right-nd h4{
+        font-size: 18px;
+      }
+
+      #about .right .right-nd p{
+        font-size: 14px;
+      }
+
+    }
+    @media screen and (max-width: 1024px){
+      #about .right .right-nd h4{
+        font-size: 16px;
+      }
+
+      #about .right .right-nd p{
+        font-size: 10px;
+      }
+    }
+    @media screen and (max-width: 768px){
+      #about .right .right-nd h4{
+        font-size: 14px;
+      }
+
+      #about .right .right-nd p{
+        font-size: 10px;
+      }
+
+      /* dọc mh */
+
+      #about .left img{
+        margin: 0px auto!important;
+        border-radius: 0px;
+      }
+
+      #about .right .right-nd{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+
+        margin-right: 2%;
+        margin-left: 2%;
+        background-color: #E8E8E8;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        box-shadow: 0px 2px 5px #BFBFBF;
+      }
+    }
+
+/*    */
+  /* order */
+
+  #order{
+    padding-top: 150px;
+    background-image: url("../images/banner/order6.jpg"); /*2, 6*/
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #order .nd{
+    padding-bottom: 50px;
+  }
+
+  #order .nd .nd-order{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    /*border: 1px solid black;*/
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: block!important;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.7);
+  }
+
+  #order .nd .nd-order .what{
+    text-align: center;
+    color: #FD5961;
+    font-weight: bold;
+    font-family: Brush Script MT;
+    font-size: 30px;
+  }
+
+  #order .nd .nd-order .nav-item a{
+    border-radius: 20px!important;
+    /*border: 1px solid red!important;*/
+    margin-left: 10px!important;
+
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    padding-left: 8px!important;
+    padding-right: 8px!important;
+
+    color: black;
+    background-color: ;
+    font-weight: bold;
+  }
+
+  #order .nd .nd-order .nav-item a:hover{
+    background-color: #FEA1A5;
+    color: white;
+    transition: 100ms;
+  }
+
+  #order .nd .nd-order .nav-item .active{
+    color: white!important;
+    background-color: #FEA1A5;
+  }
+
+  #order .nd .nd-order .nav-tabs{
+    border-bottom: 0px solid red!important;
+  }
+
+  #order .nd .nd-order .tab-content{
+    border-top: 0px solid red!important;
+  }
+
+
+
+
+
+.popover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1060;
+	display: block;
+	max-width: 276px;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6;
+	text-align: left;
+	text-align: start;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	word-break: normal;
+	word-spacing: normal;
+	white-space: normal;
+	line-break: auto;
+	font-size: 0.7875rem;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.3rem;
+}
+    /*--------footer--------*/
+    #footer {
+        background-image:url("../images/banner/footer.svg");
+        background-repeat: no-repeat;
+        background-size: ;
+        background-position: center;
+    }
+    #footer h5{
+      padding-left: 10px;
+        border-left: 3px solid #eeeeee;
+        padding-bottom: 6px;
+        margin-bottom: 20px;
+        color:#ffffff;
+    }
+    #footer a {
+        color: #ffffff;
+        text-decoration: none !important;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+    #footer ul.quick-links li{
+      padding: 3px 0;
+      -webkit-transition: .5s all ease;
+      -moz-transition: .5s all ease;
+      transition: .5s all ease;
+    }
+    #footer ul.quick-links li:hover{
+      padding: 3px 0;
+      margin-left:5px;
+      font-weight:700;
+    }
+    #footer ul.quick-links li a i{
+      margin-right: 5px;
+    }
+    #footer ul.quick-links li:hover a i {
+        font-weight: 700;
+    }
+    @media (max-width:767px){
+      #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+      }
+    }
+    /*--------end-footer--------*/
+    
+        /* stick menu (thanh nav) */
+        #stick { 
+          width: 100%;
+          margin-right: 0px;
+          left: 0px;
+          position: relative;
+          z-index: 9999;
+        }
+    
+      
+    
+        a.nolink:hover{
+          text-decoration: none;
+          color: black;
+        }
+    
+        .fake{
+          width: 100%;
+          height: 200px;
+          margin: aoto;
+          background-color: lightgray;
+        }
+    
+        .btn {
+        margin-left: 0px;
+        margin-right: 10px;
+      }
+      
+      .btn-blue {
+        font-size: 11pt;
+        color: rgb(255 ,255 ,255);
+        letter-spacing: 0px;
+        line-height: 15px;
+        border-radius:3px;
+        background: rgb(13, 92, 182);;
+        transition: all 0.3s ease 0s;
+      }
+    
+      .btn-blue:hover {
+      color: #FFF;
+      background: rgba(58, 133, 191, 0.75);
+      }
+      section {
+        padding: 60px 0;
+    }
+
+#card .card .p-2{
+  overflow: hidden;
+}
+
+#card .card img{
+  width: 100%;
+  transition: all 1s;
+}
+
+
+#card .card img:hover{
+      opacity: 0.8;
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+        /*box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transform:scale(1.015);*/
+    }
+
+  .dropdown:hover .dropdown-menu { 
+    display: block; 
+    margin-top: 0;
+    }
+
+ #badge .badge {
+      display: inline-block;
+      min-width: 10px;
+      padding: 3px 7px;
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      border-radius: 10px;
+  }
+
+
+
+/* ********************/
+
+  #car #modau{
+    position: relative;
+  }
+
+  #car #modau .nd{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+  }
+
+  #car #modau .nd h1{
+    color: #FEA1A5;
+    font-family: Arial;
+    border-color: #595959;
+    text-shadow: 2px 1px 1px #7F7F7F;
+    font-weight: bold;
+  }
+  #car #modau .nd p{
+    color: #595959;
+  }
+  #car #modau .nd a{
+    color: #FEA1A5;
+    padding: 3px;
+    border: 1px solid #FEA1A5;
+    border-radius: 50px;
+  }
+  #car #modau .nd a:hover{
+    text-decoration: none!important;
+    font-weight: bold;
+    border: 2px solid #FEA1A5;
+  }
+
+
+
+

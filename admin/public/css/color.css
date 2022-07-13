@@ -1,0 +1,39 @@
+
+
+/*
+màu nền : E8E8E8; #DCDCDC
+
+hồng:;
+nhạt   FBCACC
+vừa    FEA1A5
+đậm		FD5961
+
+mau chữ 595959
+*/
+
+
+
+
+
+
+#dangnhap button{
+	color: white;
+	background-color: #FD5961;
+}
+
+#dangnhap button:hover{
+	color: #FD5961;
+	background-color: #FEA1A5;
+	font-weight: bold;
+}
+
+#dangky button{
+	color: white;
+	background-color: #FD5961;
+}
+
+#dangky button:hover{
+	color: #FD5961;
+	background-color: #FEA1A5;
+	font-weight: bold;
+}

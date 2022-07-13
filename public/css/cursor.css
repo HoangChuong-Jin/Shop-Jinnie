@@ -1,0 +1,43 @@
+
+
+html, body{
+    cursor: url('../images/icon/cursor.png'),auto; /* hình con trỏ chuột */
+  }
+
+  button:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+  li:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto;
+  }
+
+  div:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto;
+  }
+
+  span:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto;
+  }
+
+  label:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto;
+  }
+
+  h1, h2, h3, h4:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto;
+  }
+
+  a:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto;
+  }
+  i:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto;
+  }

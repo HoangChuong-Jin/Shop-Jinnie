@@ -1,0 +1,79 @@
+
+
+html, body{
+    cursor: url('../images/icon/cursor.png'),auto!important; /* hình con trỏ chuột */
+  }
+
+  button:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+  li:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  div:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  span:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  label:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  h1, h2, h3, h4:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  a:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  i:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  th:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  tr:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  option:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }  
+
+  form:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+  select:hover
+  {
+    cursor: url('../images/icon/cursor.png'),auto!important;
+  }
+
+
+
+
+
+
+
+
+
+
